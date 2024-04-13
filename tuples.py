@@ -6,6 +6,7 @@ print(fruits)
 print(fruits[2])
 print(fruits[1:4])
 print(fruits[0:3])
+print(fruits[-4:-1])
 
 #adding items in a tuple
 #1 changing into a list
@@ -27,5 +28,24 @@ print(max(x))
 fruits=tuple(x)
 print(fruits)
 
+
+#finding the length
+print(len(fruits))
+
+#removing items from a tuple
+h = list(fruits)
+print(h)
+h.remove("kiwi")
+fruits = tuple(h)
+print(fruits)
+
+#removing all the items
+# del(fruits)
+
+
+
+
+
+ 
 
 
